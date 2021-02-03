@@ -1,2 +1,8 @@
 # Ledger Chain
-Simple blockchain implementation.
+
+## Features
+- Proof of Work
+- Transactions & Wallets
+- P2P Sync (Mock)
+- REST API
+- Unit Tests
