@@ -1,8 +1,11 @@
 import { WebSocket } from 'ws';
+import { Blockchain } from './Blockchain';
 export class P2P {
     public sockets: WebSocket[];
-    constructor() {
+    public blockchain: Blockchain;
+    constructor(blockchain: Blockchain) {
         this.sockets = [];
+        this.blockchain = blockchain;
     }
     listen(port: number) {
         const server = new WebSocket.Server({ port });
@@ -10,6 +13,9 @@ export class P2P {
     }
     connectSocket(socket: WebSocket) {
         this.sockets.push(socket);
-        console.log('Socket connected');
+        socket.on('message', message => {
+            const data = JSON.parse(message.toString());
+            // Handle sync logic here
+        });
     }
 }
