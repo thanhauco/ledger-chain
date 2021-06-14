@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "ethers": "^5.0.0"
+  "devDependencies": {
+    "ganache-cli": "^6.12.0"
   }
 }
