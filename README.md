@@ -1,16 +1,13 @@
 # Ledger Chain
 
 ## Features
-- Proof of Work
-- Transactions & Wallets
-- P2P Sync (Mock)
-- REST API
-- Merkle Tree
-- Smart Contracts (Basic)
-- Bloom Filters
-- State Channels
-- React Wallet UI
-- Block Explorer
+- Enterprise V3 Features
+- TypeORM & NestJS
+- GraphQL & Web3
+- Smart Contracts (Solidity)
+- IPFS & Libp2p
+- Socket.io & Redis
+- BullMQ & Stripe
 
 ## Status
-Enterprise Ready V3.
+Enterprise Scale V4.
