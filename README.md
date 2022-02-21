@@ -1,13 +1,12 @@
 # Ledger Chain
 
 ## Features
-- Enterprise V3 Features
-- TypeORM & NestJS
-- GraphQL & Web3
-- Smart Contracts (Solidity)
-- IPFS & Libp2p
-- Socket.io & Redis
-- BullMQ & Stripe
+- Enterprise V4 Features
+- TypeScript 4.5
+- GitHub Actions
+- Fastify & Prisma
+- GraphQL Yoga
+- Zod Validation
 
 ## Status
-Enterprise Scale V4.
+Modernized V5 (2022).
